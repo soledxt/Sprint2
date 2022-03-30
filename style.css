@@ -1,58 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap");
 
+:root {
+  font-size: 18px;
+}
+
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-.container {
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
-  height: 100%;
-  background-color: #fff;
-}
-
-ul li {
-  list-style: none;
-}
-
-.menu ul li {
-  list-style: none;
-  text-transform: uppercase;
-  font-size: 0.9rem;
-  margin-right: 2rem;
-}
-.menu ul:last-child li:last-child {
-  margin-right: 0;
-}
-
-button {
-  border: none;
-  outline: none;
-  cursor: pointer;
-  transition: all 0.3s ease-out;
-}
-nav {
-  display: flex;
-}
-.links {
-  display: flex;
-}
-
-nav {
-  padding: 5rem 2rem 5rem 2rem;
-  align-items: center;
-  line-height: 40px;
-  justify-content: space-between;
-  height: 200px;
-}
-
-.logo {
-  display: flex;
-}
-
-.logo img {
-  align-items: center;
 }
